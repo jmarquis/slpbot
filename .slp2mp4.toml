@@ -1,0 +1,16 @@
+[paths]
+ffmpeg = "ffmpeg"
+slippi_playback = "/opt/app/tmp/slippi/squashfs-root/AppRun"
+ssbm_iso = "/opt/app/tmp/melee.iso"
+
+[dolphin]
+backend = "Software Renderer"
+resolution = "480p"
+bitrate = 3500
+
+[ffmpeg]
+volume = 25
+
+[runtime]
+parallel = 0
+youtubify_names = false

@@ -1,0 +1,12 @@
+{
+  "name": "slpbot",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env index.ts",
+    "register-commands": "node --env-file=.env scripts/register-commands.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.26.4"
+  }
+}

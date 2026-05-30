@@ -1,0 +1,7 @@
+services:
+  bot:
+    build: .
+    platform: linux/amd64
+    volumes:
+      - .:/opt/app:delegated
+    shm_size: 256m
