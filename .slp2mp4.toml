@@ -1,6 +1,6 @@
 [paths]
 ffmpeg = "ffmpeg"
-slippi_playback = "/storage/slippi/Slippi_Playback-x86_64.AppImage"
+slippi_playback = "/storage/slippi/squashfs-root/usr/bin/dolphin-emu"
 ssbm_iso = "/storage/melee/melee.iso"
 
 [dolphin]
