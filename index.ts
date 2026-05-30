@@ -31,4 +31,9 @@ for (const command of Object.values(commands)) {
   client.commands.set(command.data.name, command)
 }
 
+process.on("SIGTERM", () => {
+  console.log("SIGTERM received. Disconnecting...")
+  client.destroy()
+})
+
 client.login(token)
