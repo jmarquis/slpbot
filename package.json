@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "node --env-file=.env index.ts",
+    "dev": "node --env-file=.env index.ts",
+    "start": "node index.ts",
     "register-commands": "node --env-file=.env scripts/register-commands.ts"
   },
   "dependencies": {
