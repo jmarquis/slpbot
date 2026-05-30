@@ -18,6 +18,9 @@ RUN python3 -m venv .venv
 ENV PATH="/opt/app/.venv/bin:$PATH"
 RUN pip install --no-cache-dir "slp2mp4 @ git+https://github.com/davisdude/slp2mp4.git"
 
+COPY package.json package-lock.json ./
+RUN npm ci
+
 COPY .slp2mp4.toml /root/
 COPY . .
 
