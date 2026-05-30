@@ -26,6 +26,4 @@ ENV DISPLAY=:99
 
 RUN echo 'pcm.!default { type null }\nctl.!default { type null }' > /etc/asound.conf
 
-VOLUME /opt/app
-
 CMD ["npm", "run", "start"]
