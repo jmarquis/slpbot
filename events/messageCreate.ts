@@ -24,8 +24,10 @@ export const messageCreate: EventSubscriber = client => {
       return
     }
 
-    const file = fs.createWriteStream(path.join("./tmp", filename))
+    const file = fs.createWriteStream(path.join("/storage/slps", filename))
 
     await pipeline(response.body, file)
+
+    console.log(`Downloaded SLP: ${filename}`)
   })
 }

@@ -1,7 +1,7 @@
 [paths]
 ffmpeg = "ffmpeg"
-slippi_playback = "/opt/app/tmp/slippi/squashfs-root/AppRun"
-ssbm_iso = "/opt/app/tmp/melee.iso"
+slippi_playback = "/storage/slippi/Slippi_Playback-x86_64.AppImage"
+ssbm_iso = "/storage/melee/melee.iso"
 
 [dolphin]
 backend = "Software Renderer"
